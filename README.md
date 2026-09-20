@@ -13,6 +13,16 @@ accurate DNA repair. This repository asks what follows if repair fidelity is
 treated not as one more cancer defence but as a parameter controlling whether
 multicellular tissue stays in a stable cooperative state at all.
 
+## Provenance of the model
+
+The ODE below is **not introduced here**. It is the mean-field reduction of a
+non-equilibrium rotational-lattice model analysed separately in a physical
+setting — [10.5281/zenodo.21210708](https://doi.org/10.5281/zenodo.21210708),
+under review at *Physics Open* — where the bistability is established as a
+proposition and confirmed by kinetic Monte Carlo to survive fluctuations on a
+finite lattice. What this repository adds is the identification of that model's
+control parameter with DNA-repair fidelity, and the scaling results below.
+
 ## The model
 
 A single order parameter `I ∈ [0,1]` describes tissue integrity, maintained by
