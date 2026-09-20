@@ -42,9 +42,9 @@ so the whole bifurcation diagram comes from sweeping `I` and reading off `ρ` �
 no integration, no fitting. The fold, where the high-order state is destroyed,
 is the root of `μ′(I)(1−I)I − μ(I) = 0`.
 
-**Bistability here is assumed, not discovered.** Positive feedback of this form
-produces bistability by construction. The interesting question is what moves the
-threshold.
+**Bistability here is inherited, not discovered.** It comes from the lattice
+model above, where it is established as a proposition and confirmed by kinetic
+Monte Carlo. The interesting question is what moves the threshold.
 
 ## Results
 
@@ -123,7 +123,7 @@ computation. The audit re-checks 12 headline quantities, verifies that every
 reference is cited and every citation is listed, and looks for values described
 as being on the wrong side of a threshold named in the same sentence.
 
-All 17 references were verified against Crossref.
+All 18 references were verified against Crossref.
 
 ## Citation
 
