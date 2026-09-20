@@ -16,6 +16,7 @@ ladder with the coupling prediction as the signature test.
 """
 import json
 import os
+import re
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
@@ -67,6 +68,37 @@ for s in doc.sections:
         anchor.addnext(ln)
 
 
+SUB_RE = re.compile(r"(ρ|I)_(c|damage|stress)\b")
+
+
+def add_text(p, text, size=11, bold=False, italic=False, color=None):
+    """Append text, rendering the model's own X_y tokens as real subscripts.
+
+    Deliberately narrow: only rho_c, rho_damage, rho_stress and I_c are
+    converted. Filenames such as make_figures.py and order_repair_model.py also
+    contain underscores and must be left exactly as written.
+    """
+    def run(chunk, sub=False):
+        r = p.add_run(chunk)
+        r.bold, r.italic = bold, italic
+        r.font.size = Pt(size)
+        r.font.subscript = sub
+        if color is not None:
+            r.font.color.rgb = color
+        return r
+
+    pos = 0
+    for m in SUB_RE.finditer(text):
+        if text[pos:m.start()]:
+            run(text[pos:m.start()])
+        run(m.group(1))
+        run(m.group(2), sub=True)
+        pos = m.end()
+    if text[pos:]:
+        run(text[pos:])
+    return p
+
+
 def H(text, size=12, space_before=14):
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(space_before)
@@ -85,10 +117,7 @@ def Pp(text, indent=False, italic=False, size=11, spacing=2.0, align=None):
         p.paragraph_format.first_line_indent = Inches(0.3)
     if align is not None:
         p.alignment = align
-    r = p.add_run(text)
-    r.italic = italic
-    r.font.size = Pt(size)
-    return p
+    return add_text(p, text, size=size, italic=italic)
 
 
 def KEY(text):
@@ -98,20 +127,15 @@ def KEY(text):
     p.paragraph_format.left_indent = Inches(0.3)
     p.paragraph_format.space_before = Pt(4)
     p.paragraph_format.space_after = Pt(10)
-    r = p.add_run(text)
-    r.italic = True
-    r.font.size = Pt(10.5)
-    r.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
-    return p
+    return add_text(p, text, size=10.5, italic=True,
+                    color=RGBColor(0x33, 0x33, 0x33))
 
 
 def CAP(text):
     p = doc.add_paragraph()
     p.paragraph_format.line_spacing = 1.0
     p.paragraph_format.space_after = Pt(12)
-    r = p.add_run(text)
-    r.font.size = Pt(9.5)
-    return p
+    return add_text(p, text, size=9.5)
 
 
 def FIG(path, width=6.3):
@@ -465,8 +489,7 @@ for a, b, c in rows:
         pr = cell.paragraphs[0]
         pr.paragraph_format.line_spacing = 1.0
         pr.paragraph_format.space_after = Pt(2)
-        rr = pr.add_run(txt)
-        rr.font.size = Pt(9)
+        add_text(pr, txt, size=9)
 for row in tb.rows:
     for w, cell in zip((2.1, 2.1, 2.1), row.cells):
         cell.width = Inches(w)
@@ -630,8 +653,7 @@ for head, body in LIMS:
     r = p.add_run(head + " ")
     r.bold = True
     r.font.size = Pt(11)
-    r = p.add_run(body)
-    r.font.size = Pt(11)
+    add_text(p, body)
 
 # ================================================================ SECTION 13
 H("Outstanding questions")
