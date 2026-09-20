@@ -37,8 +37,8 @@ SCA = R["scaling_A"]
 ROB = R["robustness"]
 CUSP_B = R["cusp"]["B"]
 
-DOI_CODE = "PLACEHOLDER_CODE_DOI"
-DOI_MS = "PLACEHOLDER_MS_DOI"
+DOI_CODE = "10.5281/zenodo.22851970"
+DOI_MS = "10.5281/zenodo.22851972"
 REPO = "https://github.com/sandlerleon/order-repair-model"
 
 doc = Document()
