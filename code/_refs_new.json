@@ -1,0 +1,139 @@
+{
+ "seluanov2018": {
+  "doi": "10.1038/s41568-018-0004-9",
+  "title": "Mechanisms of cancer resistance in long-lived mammals",
+  "journal": "Nature Reviews Cancer",
+  "year": 2018,
+  "authors": [
+   "Seluanov A",
+   "Gladyshev VN",
+   "Vijg J",
+   "Gorbunova V"
+  ],
+  "volume": "18",
+  "page": "433-441",
+  "type": "journal-article"
+ },
+ "caulin2011": {
+  "doi": "10.1016/j.tree.2011.01.002",
+  "title": "Peto's Paradox: evolution's prescription for cancer prevention",
+  "journal": "Trends in Ecology &amp; Evolution",
+  "year": 2011,
+  "authors": [
+   "Caulin AF",
+   "Maley CC"
+  ],
+  "volume": "26",
+  "page": "175-182",
+  "type": "journal-article"
+ },
+ "lopezotin2023": {
+  "doi": "10.1016/j.cell.2022.11.001",
+  "title": "Hallmarks of aging: An expanding universe",
+  "journal": "Cell",
+  "year": 2023,
+  "authors": [
+   "L\u00f3pez-Ot\u00edn C",
+   "Blasco MA",
+   "Partridge L",
+   "Serrano M",
+   "Kroemer G"
+  ],
+  "volume": "186",
+  "page": "243-278",
+  "type": "journal-article"
+ },
+ "ferrell2002": {
+  "doi": "10.1016/s0955-0674(02)00314-9",
+  "title": "Self-perpetuating states in signal transduction: positive feedback, double-negative feedback and bistability",
+  "journal": "Current Opinion in Cell Biology",
+  "year": 2002,
+  "authors": [
+   "Ferrell JE"
+  ],
+  "volume": "14",
+  "page": "140-148",
+  "type": "journal-article"
+ },
+ "ceccaldi2016": {
+  "doi": "10.1016/j.tcb.2015.07.009",
+  "title": "Repair Pathway Choices and Consequences at the Double-Strand Break",
+  "journal": "Trends in Cell Biology",
+  "year": 2016,
+  "authors": [
+   "Ceccaldi R",
+   "Rondinelli B",
+   "D\u2019Andrea AD"
+  ],
+  "volume": "26",
+  "page": "52-64",
+  "type": "journal-article"
+ },
+ "vijg2020": {
+  "doi": "10.1016/j.cell.2020.06.024",
+  "title": "Pathogenic Mechanisms of Somatic Mutation and Genome Mosaicism in Aging",
+  "journal": "Cell",
+  "year": 2020,
+  "authors": [
+   "Vijg J",
+   "Dong X"
+  ],
+  "volume": "182",
+  "page": "12-23",
+  "type": "journal-article"
+ },
+ "scheffer2009": {
+  "doi": "10.1038/nature08227",
+  "title": "Early-warning signals for critical transitions",
+  "journal": "Nature",
+  "year": 2009,
+  "authors": [
+   "Scheffer M",
+   "Bascompte J",
+   "Brock WA",
+   "Brovkin V",
+   "Carpenter SR",
+   "Dakos V",
+   "Held H",
+   "van Nes EH",
+   "Rietkerk M",
+   "Sugihara G"
+  ],
+  "volume": "461",
+  "page": "53-59",
+  "type": "journal-article"
+ },
+ "vandeursen2014": {
+  "doi": "10.1038/nature13193",
+  "title": "The role of senescent cells in ageing",
+  "journal": "Nature",
+  "year": 2014,
+  "authors": [
+   "van Deursen JM"
+  ],
+  "volume": "509",
+  "page": "439-446",
+  "type": "journal-article"
+ },
+ "tian2013": {
+  "doi": "10.1038/nature12234",
+  "title": "High-molecular-mass hyaluronan mediates the cancer resistance of the naked mole rat",
+  "journal": "Nature",
+  "year": 2013,
+  "authors": [
+   "Tian X",
+   "Azpurua J",
+   "Hine C",
+   "Vaidya A",
+   "Myakishev-Rempel M",
+   "Ablaeva J",
+   "Mao Z",
+   "Nevo E",
+   "Gorbunova V",
+   "Seluanov A"
+  ],
+  "volume": "499",
+  "page": "346-349",
+  "type": "journal-article"
+ }
+}

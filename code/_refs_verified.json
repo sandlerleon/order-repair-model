@@ -1,0 +1,185 @@
+{
+ "Abegglen 2015": {
+  "doi": "10.1001/jama.2015.13134",
+  "title": "Potential Mechanisms for Cancer Resistance in Elephants and Comparative Cellular Response to DNA Damage in Humans",
+  "year": 2015,
+  "journal": "JAMA",
+  "authors": [
+   "Abegglen LM",
+   "Caulin AF",
+   "Chan A",
+   "Lee K",
+   "Robinson R",
+   "Campbell MS",
+   "Kiso WK",
+   "Schmitt DL",
+   "Waddell PJ",
+   "Bhaskara S",
+   "Jensen ST",
+   "Maley CC",
+   "Schiffman JD"
+  ],
+  "volume": "314",
+  "page": "1850"
+ },
+ "Cisneros 2017": {
+  "doi": "10.1371/journal.pone.0176258",
+  "title": "Ancient genes establish stress-induced mutation as a hallmark of cancer",
+  "year": 2017,
+  "journal": "PLOS ONE",
+  "authors": [
+   "Cisneros L",
+   "Bussey KJ",
+   "Orr AJ",
+   "Mio\u010devi\u0107 M",
+   "Lineweaver CH",
+   "Davies P"
+  ],
+  "volume": "12",
+  "page": "e0176258"
+ },
+ "Davies 2011": {
+  "doi": "10.1088/1478-3975/8/1/015001",
+  "title": "Cancer tumors as Metazoa 1.0: tapping genes of ancient ancestors",
+  "year": 2011,
+  "journal": "Physical Biology",
+  "authors": [
+   "Davies PCW",
+   "Lineweaver CH"
+  ],
+  "volume": "8",
+  "page": "015001"
+ },
+ "Domazet-Loso 2010": {
+  "doi": "10.1186/1741-7007-8-66",
+  "title": "Phylostratigraphic tracking of cancer genes suggests a link to the emergence of multicellularity in metazoa",
+  "year": 2010,
+  "journal": "BMC Biology",
+  "authors": [
+   "Domazet-Lo\u0161o T",
+   "Tautz D"
+  ],
+  "volume": "8",
+  "page": null
+ },
+ "Firsanov 2025": {
+  "doi": "10.1038/s41586-025-09694-5",
+  "title": "Evidence for improved DNA repair in the long-lived bowhead whale",
+  "year": 2025,
+  "journal": "Nature",
+  "authors": [
+   "Firsanov D",
+   "Zacher M",
+   "Tian X",
+   "Sformo TL",
+   "Zhao Y",
+   "Tombline G",
+   "Lu JY",
+   "Zheng Z",
+   "Perelli L",
+   "Gurreri E",
+   "Zhang L",
+   "Guo J",
+   "Korotkov A",
+   "Volobaev V",
+   "Biashad SA",
+   "Zhang Z",
+   "Heid J",
+   "Maslov AY",
+   "Sun S",
+   "Wu Z",
+   "Gigas J",
+   "Hillpot EC",
+   "Martinez JC",
+   "Lee M",
+   "Williams A",
+   "Gilman A",
+   "Hamilton N",
+   "Strelkova E",
+   "Haseljic E",
+   "Patel A",
+   "Straight ME",
+   "Miller N",
+   "Ablaeva J",
+   "Tam LM",
+   "Couderc C",
+   "Hoopmann MR",
+   "Moritz RL",
+   "Fujii S",
+   "Pelletier A",
+   "Hayman DJ",
+   "Liu H",
+   "Cai Y",
+   "Leung AKL",
+   "Zhang Z",
+   "Nelson CB",
+   "Abegglen LM",
+   "Schiffman JD",
+   "Gladyshev VN",
+   "Maley CC",
+   "Modesti M",
+   "Genovese G",
+   "Simons MJP",
+   "Vijg J",
+   "Seluanov A",
+   "Gorbunova V"
+  ],
+  "volume": "648",
+  "page": "717-725"
+ },
+ "Gatenby 2009": {
+  "doi": "10.1158/0008-5472.CAN-08-3658",
+  "title": "Adaptive Therapy",
+  "year": 2009,
+  "journal": "Cancer Research",
+  "authors": [
+   "Gatenby RA",
+   "Silva AS",
+   "Gillies RJ",
+   "Frieden BR"
+  ],
+  "volume": "69",
+  "page": "4894-4903"
+ },
+ "Lineweaver 2014": {
+  "doi": "10.1002/bies.201400070",
+  "title": "Targeting cancer's weaknesses (not its strengths): Therapeutic strategies suggested by the atavistic model",
+  "year": 2014,
+  "journal": "BioEssays",
+  "authors": [
+   "Lineweaver CH",
+   "Davies PCW",
+   "Vincent MD"
+  ],
+  "volume": "36",
+  "page": "827-835"
+ },
+ "Lineweaver 2021": {
+  "doi": "10.1002/bies.202000305",
+  "title": "Cancer progression as a sequence of atavistic reversions",
+  "year": 2021,
+  "journal": "BioEssays",
+  "authors": [
+   "Lineweaver CH",
+   "Bussey KJ",
+   "Blackburn AC",
+   "Davies PCW"
+  ],
+  "volume": "43",
+  "page": null
+ },
+ "Trigos 2017": {
+  "doi": "10.1073/pnas.1617743114",
+  "title": "Altered interactions between unicellular and multicellular genes drive hallmarks of transformation in a diverse range of solid tumors",
+  "year": 2017,
+  "journal": "Proceedings of the National Academy of Sciences",
+  "authors": [
+   "Trigos AS",
+   "Pearson RB",
+   "Papenfuss AT",
+   "Goode DL"
+  ],
+  "volume": "114",
+  "page": "6406-6411"
+ }
+}
